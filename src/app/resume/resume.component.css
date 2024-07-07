@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+.inner-divs{
+    border: 10px solid blue;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 20px;
+}

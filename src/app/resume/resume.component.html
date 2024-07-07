@@ -1,0 +1,12 @@
+<body>
+    <h1>{{title}}</h1>
+    
+    <div *ngIf="viewExperience">
+        <div class = "inner-divs" *ngFor="let Experience of experienceList">
+            <span class="job-title">{{Experience.jobTitle}}, {{Experience.companyName}}</span><br><br>{{Experience.description}}
+        </div>
+    </div>
+   
+
+    <button (click) = "toggleExperience()">Show/Hide Experience</button>
+</body>
